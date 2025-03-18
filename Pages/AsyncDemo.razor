@@ -1,0 +1,42 @@
+﻿@page "/async-demo"
+@inject AsyncVsBlockingBlazor.Services.AsyncTester Tester  
+
+<h3>Async vs Blocking Demo</h3>
+
+<button @onclick="RunBlockingTest">Run Simulated Blocking Test</button>
+<p>@blockingResult</p>
+
+<button @onclick="RunAsyncTest">Run Async Test</button>
+<p>@asyncResult</p>
+
+<button @onclick="RunParallelAsyncTest">Run Parallel Async Test</button>
+<p>@parallelResult</p>
+
+<button @onclick="FetchApiData">Fetch API Data</button>
+<p>@apiResult</p>
+
+<button @onclick="SaveApiResponseToDatabase">Save API Response to DB</button>
+<p>@saveDbResult</p>
+
+<button @onclick="RetrieveApiResponses">Retrieve API Responses</button>
+<p>@dbResult</p>
+
+@code {
+    private string blockingResult = "";
+    private string asyncResult = "";
+    private string parallelResult = "";
+    private string apiResult = "";
+    private string saveDbResult = "";
+    private string dbResult = "";
+
+    private async Task RunBlockingTest() => blockingResult = await Tester.RunBlockingTest();
+    private async Task RunAsyncTest() => asyncResult = await Tester.RunAsyncTest();
+    private async Task RunParallelAsyncTest() => parallelResult = await Tester.RunParallelAsyncTest();
+    private async Task FetchApiData() => apiResult = await Tester.FetchDataFromApi();
+    private async Task SaveApiResponseToDatabase() => saveDbResult = await Tester.SaveApiResponseToDatabaseAsync();
+    private async Task RetrieveApiResponses()
+    {
+        var responses = await Tester.RetrieveApiResponsesAsync();
+        dbResult = responses.Count > 0 ? $"Retrieved {responses.Count} API responses" : "No data found";
+    }
+}
