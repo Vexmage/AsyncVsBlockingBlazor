@@ -1,28 +1,33 @@
 ﻿@page "/"
 
-<h2>Welcome to the Async vs Blocking Demo</h2>
+<div class="container">
+    <h2>Welcome to the Async vs Blocking Demo</h2>
 
-<p>
-    This site is a simple interactive tool designed to demonstrate the differences
-    between <strong>blocking (synchronous)</strong> and <strong>asynchronous</strong>
-    execution in C# using Blazor WebAssembly.
-</p>
+    <p>
+        This interactive tool demonstrates the differences between
+        <strong>blocking (synchronous)</strong> and <strong>asynchronous</strong>
+        execution in C# using Blazor WebAssembly.
+    </p>
 
-<h3>Why Does This Matter?</h3>
-<ul>
-    <li><strong>Blocking code</strong> (e.g., <code>Thread.Sleep</code>) pauses execution, making applications unresponsive.</li>
-    <li><strong>Asynchronous code</strong> (e.g., <code>Task.Delay</code>) allows apps to remain responsive while waiting for tasks to complete.</li>
-    <li><strong>Parallel execution</strong> lets multiple tasks run simultaneously, improving efficiency.</li>
-</ul>
+    <div class="card">
+        <h3>Why Does This Matter?</h3>
+        <ul class="text-start">
+            <li><strong>Blocking code</strong> pauses execution, making apps unresponsive.</li>
+            <li><strong>Async code</strong> keeps applications responsive while waiting.</li>
+            <li><strong>Parallel execution</strong> improves efficiency by running tasks concurrently.</li>
+        </ul>
+    </div>
 
-<h3>What You Can Do Here:</h3>
-<ul>
-    <li>Compare execution times between <strong>blocking</strong> and <strong>async</strong> methods.</li>
-    <li>See how <strong>parallel async execution</strong> can improve performance.</li>
-    <li>Make <strong>API calls</strong> and save the results to a local database.</li>
-</ul>
+    <div class="card">
+        <h3>What You Can Do Here:</h3>
+        <ul class="text-start">
+            <li>Compare <strong>blocking</strong> vs <strong>async</strong> execution.</li>
+            <li>Test <strong>parallel execution</strong> for better performance.</li>
+            <li>Run <strong>API calls</strong> and store results in a database.</li>
+        </ul>
+    </div>
 
-<!-- Navigation Button to AsyncDemo -->
-<a href="/async-demo">
-    <button>Try the Async Demo</button>
-</a>
+    <a href="/async-demo">
+        <button>Try the Async Demo</button>
+    </a>
+</div>
