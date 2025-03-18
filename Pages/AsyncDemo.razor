@@ -3,14 +3,38 @@
 
 <h3>Async vs Blocking Demo</h3>
 
+<p>
+    This page lets you compare different execution models in C#.
+    Run the tests below and see how each method affects performance!
+</p>
+
+<h3>Blocking vs Async Execution</h3>
+<p>
+    Blocking execution (synchronous) <strong>pauses</strong> the entire thread,
+    whereas asynchronous execution <strong>continues</strong> running other tasks while waiting.
+</p>
+
 <button @onclick="RunBlockingTest">Run Simulated Blocking Test</button>
 <p>@blockingResult</p>
 
 <button @onclick="RunAsyncTest">Run Async Test</button>
 <p>@asyncResult</p>
 
+<h3>Parallel Execution</h3>
+<p>
+    Instead of waiting for each task to complete one at a time,
+    parallel execution allows multiple tasks to run <strong>at the same time</strong>.
+</p>
+
+
 <button @onclick="RunParallelAsyncTest">Run Parallel Async Test</button>
 <p>@parallelResult</p>
+
+<h3>API Calls & Database Storage</h3>
+<p>
+    This test makes a call to an external API and saves the result in a database.
+    This simulates how async programming is used in real-world applications.
+</p>
 
 <button @onclick="FetchApiData">Fetch API Data</button>
 <p>@apiResult</p>
@@ -20,6 +44,19 @@
 
 <button @onclick="RetrieveApiResponses">Retrieve API Responses</button>
 <p>@dbResult</p>
+
+<h3>How This Works</h3>
+<ul>
+    <li><strong>Blocking Test:</strong> Simulates blocking execution using a while-loop.</li>
+    <li><strong>Async Test:</strong> Uses <code>Task.Delay</code> to run without blocking.</li>
+    <li><strong>Parallel Async Test:</strong> Runs two async tasks at the same time.</li>
+    <li><strong>API Call:</strong> Fetches data from an external API.</li>
+    <li><strong>Database Save & Retrieve:</strong> Stores API results in an SQLite database.</li>
+</ul>
+
+<a href="/">
+    <button>Return to Home</button>
+</a>
 
 @code {
     private string blockingResult = "";

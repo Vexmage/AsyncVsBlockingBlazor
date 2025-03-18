@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\namxe\\Documents\\Devel\\asyncCompare\\AsyncVsBlockingBlazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|c:\\users\\namxe\\documents\\devel\\asynccompare\\asyncvsblockingblazor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|c:\\users\\namxe\\documents\\devel\\asynccompare\\asyncvsblockingblazor\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|c:\\users\\namxe\\documents\\devel\\asynccompare\\asyncvsblockingblazor\\pages\\asyncdemo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|solutionrelative:pages\\asyncdemo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|c:\\users\\namxe\\documents\\devel\\asynccompare\\asyncvsblockingblazor\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|c:\\users\\namxe\\documents\\devel\\asynccompare\\asyncvsblockingblazor\\pages\\asyncdemo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|solutionrelative:pages\\asyncdemo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|c:\\users\\namxe\\documents\\devel\\asynccompare\\asyncvsblockingblazor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|c:\\users\\namxe\\documents\\devel\\asynccompare\\asyncvsblockingblazor\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A24B52E-6FEC-4EEA-980E-B7994DDFDC03}|AsyncVsBlockingBlazor.csproj|c:\\users\\namxe\\documents\\devel\\asynccompare\\asyncvsblockingblazor\\services\\asynctester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\asyncCompare\\AsyncVsBlockingBlazor\\App.razor",
               "RelativeDocumentMoniker": "App.razor",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\asyncCompare\\AsyncVsBlockingBlazor\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
@@ -71,18 +71,17 @@
               "RelativeToolTip": "Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T05:44:16.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T05:44:16.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\asyncCompare\\AsyncVsBlockingBlazor\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Pages\\Home.razor",
               "ToolTip": "C:\\Users\\namxe\\Documents\\Devel\\asyncCompare\\AsyncVsBlockingBlazor\\Pages\\Home.razor",
               "RelativeToolTip": "Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-18T05:44:00.649Z",
               "EditorCaption": ""
@@ -97,18 +96,17 @@
               "RelativeToolTip": "Data\\DatabaseContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:08:58.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T05:08:58.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AsyncDemo.razor",
               "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\asyncCompare\\AsyncVsBlockingBlazor\\Pages\\AsyncDemo.razor",
               "RelativeDocumentMoniker": "Pages\\AsyncDemo.razor",
               "ToolTip": "C:\\Users\\namxe\\Documents\\Devel\\asyncCompare\\AsyncVsBlockingBlazor\\Pages\\AsyncDemo.razor",
               "RelativeToolTip": "Pages\\AsyncDemo.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-18T04:55:05.215Z",
               "EditorCaption": ""
@@ -123,8 +121,7 @@
               "RelativeToolTip": "Services\\AsyncTester.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T04:54:00.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T04:54:00.683Z"
             },
             {
               "$type": "Document",
@@ -136,8 +133,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T04:53:09.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T04:53:09.248Z"
             }
           ]
         }
