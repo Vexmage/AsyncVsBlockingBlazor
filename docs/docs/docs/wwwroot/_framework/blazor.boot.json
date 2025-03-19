@@ -1,12 +1,12 @@
 {
   "mainAssemblyName": "AsyncVsBlockingBlazor",
   "resources": {
-    "hash": "sha256-aQjgnN4NmFdCu9/NXpizAf+inZdQG1a5pJMCDKggMJQ=",
+    "hash": "sha256-S74+u509dR7WlfEj1Gr1DQ2xTuTPLoe9/5gw+wLVEhw=",
     "fingerprinting": {
-      "AsyncVsBlockingBlazor.7yp8ilg7g0.wasm": "AsyncVsBlockingBlazor.wasm",
+      "AsyncVsBlockingBlazor.w86fb5vf45.wasm": "AsyncVsBlockingBlazor.wasm",
       "Microsoft.AspNetCore.Components.ua6h8rqj86.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.c2p9b1tc7s.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
-      "Microsoft.AspNetCore.Components.WebAssembly.hgjkuo3boq.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
+      "Microsoft.AspNetCore.Components.WebAssembly.usrho96pr3.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
       "Microsoft.Data.Sqlite.uehshrxqts.wasm": "Microsoft.Data.Sqlite.wasm",
       "Microsoft.EntityFrameworkCore.Abstractions.nuy26milcs.wasm": "Microsoft.EntityFrameworkCore.Abstractions.wasm",
       "Microsoft.EntityFrameworkCore.InMemory.rkzc6feqc3.wasm": "Microsoft.EntityFrameworkCore.InMemory.wasm",
@@ -101,10 +101,10 @@
       "System.Runtime.InteropServices.JavaScript.f4ln4hfftw.wasm": "sha256-r+LQmgoVdHgFKWJvUNAR7HQZAtSw+xvBIQ6siSPsBNM="
     },
     "assembly": {
-      "AsyncVsBlockingBlazor.7yp8ilg7g0.wasm": "sha256-X7vHqdBKQhZ8BpLQFgGhHwoMs0yrTDjZ/zZIaADDkqI=",
+      "AsyncVsBlockingBlazor.w86fb5vf45.wasm": "sha256-oGM15/QJTECtVklk8i4VtsQMVZ/Gi2xHz8NBgauiiFo=",
       "Microsoft.AspNetCore.Components.ua6h8rqj86.wasm": "sha256-Ju6eEDRtXMxW/9tTXk5erj2jdQBbZW+wvO+4q8OKIUE=",
       "Microsoft.AspNetCore.Components.Web.c2p9b1tc7s.wasm": "sha256-3Ll9yLWnnMaZ2Vgd7N1l+a/JnWIfGEfLCQFXi8gimYM=",
-      "Microsoft.AspNetCore.Components.WebAssembly.hgjkuo3boq.wasm": "sha256-fzI3SWzBVCDAOfn1mHWNxKyIo4QhYM9rSJrTvwD+J8E=",
+      "Microsoft.AspNetCore.Components.WebAssembly.usrho96pr3.wasm": "sha256-/iLJMeJQixNpac4dmAfUec0d7YwYuwRIhU6z7k+X26g=",
       "Microsoft.Data.Sqlite.uehshrxqts.wasm": "sha256-2isoDoS/A5aJHgcT0wYiKy+rLSFPHrQEwNrGyXRsEjE=",
       "Microsoft.EntityFrameworkCore.Abstractions.nuy26milcs.wasm": "sha256-EaWj59nHfKO7BoafUGxqhysc42qRUASMAk0zsaBoKsw=",
       "Microsoft.EntityFrameworkCore.InMemory.rkzc6feqc3.wasm": "sha256-5f4/2GN/vU2jHoV5LdPW25f0XYM+mTMYBfYtSAbGj20=",
@@ -172,6 +172,7 @@
       "System.v3da086c8u.wasm": "sha256-JR9uHwZeWzGLHbZhs4tvobv0QX0mykH6Dw/KbNqFbCA="
     }
   },
+  "cacheBootResources": true,
   "debugLevel": 0,
   "linkerEnabled": true,
   "globalizationMode": "sharded",
