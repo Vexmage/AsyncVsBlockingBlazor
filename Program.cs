@@ -9,7 +9,8 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 
 // Automatically adjust Base URI for GitHub Pages
-var baseAddress = new Uri(builder.HostEnvironment.BaseAddress.TrimEnd('/') + "/AsyncVsBlockingBlazor/");
+var baseAddress = new Uri("https://vexmage.github.io/AsyncVsBlockingBlazor/");
+
 
 // Debugging Tip: Log the base address
 Console.WriteLine($"Base Address Set To: {baseAddress}");
