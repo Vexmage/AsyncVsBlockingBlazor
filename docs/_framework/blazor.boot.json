@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "AsyncVsBlockingBlazor",
   "resources": {
-    "hash": "sha256-5YCIqeNMwmSKGAyI0kLbGzdopH9zqn1+LYoqv3BNhV4=",
+    "hash": "sha256-nvjQd77BOrhl/iZHtns5K7SKzLqMB5v0p/MbUygJXb8=",
     "fingerprinting": {
-      "AsyncVsBlockingBlazor.sphqc6kouf.wasm": "AsyncVsBlockingBlazor.wasm",
+      "AsyncVsBlockingBlazor.4v6gqbseae.wasm": "AsyncVsBlockingBlazor.wasm",
       "Microsoft.AspNetCore.Components.ua6h8rqj86.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.c2p9b1tc7s.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.usrho96pr3.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
@@ -40,7 +40,7 @@
       "System.ComponentModel.Primitives.j23dwwy7ck.wasm": "System.ComponentModel.Primitives.wasm",
       "System.ComponentModel.TypeConverter.5ph6q6rvgr.wasm": "System.ComponentModel.TypeConverter.wasm",
       "System.ComponentModel.1f9kseoecq.wasm": "System.ComponentModel.wasm",
-      "System.Console.m3503nfg59.wasm": "System.Console.wasm",
+      "System.Console.0rhup6ujmu.wasm": "System.Console.wasm",
       "System.Data.Common.0r83ztw6gg.wasm": "System.Data.Common.wasm",
       "System.Diagnostics.DiagnosticSource.t0s9b9oeb2.wasm": "System.Diagnostics.DiagnosticSource.wasm",
       "System.Diagnostics.TraceSource.4gpcdcw98l.wasm": "System.Diagnostics.TraceSource.wasm",
@@ -101,7 +101,7 @@
       "System.Runtime.InteropServices.JavaScript.f4ln4hfftw.wasm": "sha256-r+LQmgoVdHgFKWJvUNAR7HQZAtSw+xvBIQ6siSPsBNM="
     },
     "assembly": {
-      "AsyncVsBlockingBlazor.sphqc6kouf.wasm": "sha256-0H/MIGHkhlStYzcucdnMfFNsx6PPK9rQb/f/oU41LCw=",
+      "AsyncVsBlockingBlazor.4v6gqbseae.wasm": "sha256-QNNlKMZ1DpO5z6KlXNTiP2k2rZW+2uXdxtGC+Ptsa5k=",
       "Microsoft.AspNetCore.Components.ua6h8rqj86.wasm": "sha256-Ju6eEDRtXMxW/9tTXk5erj2jdQBbZW+wvO+4q8OKIUE=",
       "Microsoft.AspNetCore.Components.Web.c2p9b1tc7s.wasm": "sha256-3Ll9yLWnnMaZ2Vgd7N1l+a/JnWIfGEfLCQFXi8gimYM=",
       "Microsoft.AspNetCore.Components.WebAssembly.usrho96pr3.wasm": "sha256-/iLJMeJQixNpac4dmAfUec0d7YwYuwRIhU6z7k+X26g=",
@@ -138,7 +138,7 @@
       "System.ComponentModel.Primitives.j23dwwy7ck.wasm": "sha256-y9Ah81Fn4QA58CeqdiaUAKiEAElrLXw4oQk5wK5vbgM=",
       "System.ComponentModel.TypeConverter.5ph6q6rvgr.wasm": "sha256-GUF72tfMrGtwGdljcgy3cOiQQBas/jMtxTq9JWot+j4=",
       "System.ComponentModel.1f9kseoecq.wasm": "sha256-rQCWJUxdwpRXxrumbY2quGBBk+uTtFDScI7AtQzLHnA=",
-      "System.Console.m3503nfg59.wasm": "sha256-0qig5K3NmxcXSiWrNpUWMUeTTYLIkqPuqMAwanhMjPY=",
+      "System.Console.0rhup6ujmu.wasm": "sha256-pBm5+Ir+XP6KOCDugMEIXLyP3MW8a0qBQhNFz0ucfiI=",
       "System.Data.Common.0r83ztw6gg.wasm": "sha256-DGbPgNFC9IRV5UQKqMBy1ECk8ug9Yeete/9pGWFpHoA=",
       "System.Diagnostics.DiagnosticSource.t0s9b9oeb2.wasm": "sha256-HaXU6kqqLmEZF7ORZMXf/TkVv98HLWiUiE34Y8qGC70=",
       "System.Diagnostics.TraceSource.4gpcdcw98l.wasm": "sha256-1Ch0F8t3VLsob/YF8GExoCOQdodDnm8s6GIrAJ6/wFM=",
