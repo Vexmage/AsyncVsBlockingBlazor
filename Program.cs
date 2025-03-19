@@ -3,16 +3,16 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.EntityFrameworkCore;
 using AsyncVsBlockingBlazor;
 using AsyncVsBlockingBlazor.Data;
-using AsyncVsBlockingBlazor.Services;  // Ensure Blazor can find AsyncTester
+using AsyncVsBlockingBlazor.Services; 
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 
-// Detect if running on GitHub Pages and adjust Base URI
-var baseAddress = new Uri(builder.HostEnvironment.BaseAddress);
-#if RELEASE
-    baseAddress = new Uri("https://Vexmage.github.io/AsyncVsBlockingBlazor/");  // Change this to match your GitHub Pages URL
-#endif
+// Automatically adjust Base URI for GitHub Pages
+var baseAddress = new Uri(builder.HostEnvironment.BaseAddress.TrimEnd('/') + "/AsyncVsBlockingBlazor/");
+
+// Debugging Tip: Log the base address
+Console.WriteLine($"Base Address Set To: {baseAddress}");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = baseAddress });
 

@@ -1,5 +1,11 @@
+# Ignore Visual Studio files
+.vs/
+.vscode/
+
+# Ignore build outputs
 bin/
 obj/
-.vscode/
-#wwwroot/
-.idea/
+dist/
+
+# Ignore dependency folders
+node_modules/
